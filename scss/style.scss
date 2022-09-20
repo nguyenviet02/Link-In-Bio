@@ -79,7 +79,7 @@ body {
   position: relative;
   width: 100%;
   height: fit-content;
-  margin: 1.5rem 0;
+  margin: 1.2rem 0;
   background-color: #fff;
   display: flex;
   justify-content: flex-start;
@@ -92,7 +92,9 @@ body {
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-size: 18px;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
+    line-height: 25px;
+    margin-bottom: 1rem;
   }
 
   & .position {
