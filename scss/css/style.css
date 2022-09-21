@@ -105,7 +105,7 @@ body {
 }
 .info .info-item {
   width: 85%;
-  height: 20%;
+  min-height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,7 @@ body {
 }
 .info .info-item a span {
   height: 100%;
-  width: 60%;
+  width: 70%;
   padding: 2rem;
   font-size: 16px;
   text-align: center;
@@ -139,6 +139,9 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 20px;
+}
+.info .info-item a .location {
+  font-size: 13px;
 }
 .info .first {
   background-color: #e1dad4;
